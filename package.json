@@ -1,0 +1,30 @@
+{
+  "name": "58-css-grid-showcase",
+  "version": "1.0.0",
+  "description": "Interview-ready documentation and showcase of CSS Grid Level 1 layout architecture",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "sass:build": "sass grid-revisions/style.scss grid-revisions/style.css",
+    "sass:watch": "sass --watch grid-revisions/style.scss:grid-revisions/style.css"
+  },
+  "keywords": [
+    "css-grid",
+    "layout",
+    "sass",
+    "scss",
+    "frontend",
+    "vitepress",
+    "interview-preparation"
+  ],
+  "author": "AVISHJAIN9",
+  "license": "MIT",
+  "devDependencies": {
+    "mermaid": "^11.4.1",
+    "sass": "^1.85.0",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}

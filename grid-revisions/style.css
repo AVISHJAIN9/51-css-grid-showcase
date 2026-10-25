@@ -1,0 +1,37 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 20%;
+  grid-template-rows: 1fr 2fr 4fr 1fr;
+  gap: 20px;
+  min-height: 90vh;
+  margin: 30px auto;
+}
+body > * {
+  background-color: red;
+  font-weight: 700;
+  color: white;
+}
+body header {
+  grid-column: 1/5;
+}
+body .small-box-1 {
+  grid-column: 1/2;
+}
+body .small-box-2 {
+  grid-column: 2/3;
+}
+body .small-box-3 {
+  grid-column: 3/4;
+}
+body .sidebar {
+  grid-row: 2/4;
+  grid-column: 4/5;
+}
+body main {
+  grid-column: 1/4;
+}
+body footer {
+  grid-column: 1/-1;
+}
+
+/*# sourceMappingURL=style.css.map */
